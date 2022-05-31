@@ -23,10 +23,10 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
     let newMessage = new message({
-        name: req.body.name,
-        email: req.body.email,
-        subject: req.body.subject,
-        message: req.body.message
+        name: req.body.Name,
+        email: req.body.Email,
+        subject: req.body.Subject,
+        message: req.body.Message
     })
     newMessage.save();
     res.redirect('/');
