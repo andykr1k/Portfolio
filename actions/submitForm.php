@@ -4,14 +4,8 @@
     $subject = $_POST['Subject'];
     $message = $_POST['Message'];
     
-    //database details. You have created these details in the third step. Use your own.
-    $host = "localhost";
-    $username = "root";
-    $password = "adminpass";
-    $dbname = "messages";
-
     //create connection
-    $con = mysqli_connect($host, $username, $password, $dbname);
+    $con = mysqli_connect('mongodb+srv://root:adminpass@portfoliocluster.nwjaqh0.mongodb.net/?retryWrites=true&w=majority');
     //check connection if it is working or not
     if (!$con)
     {
@@ -28,3 +22,5 @@
     //connection closed.
     mysqli_close($con);
 ?>
+
+ 
