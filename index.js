@@ -29,7 +29,6 @@ app.post('/', (req, res) => {
         message: req.body.Message
     })
     newMessage.save();
-    res.redirect('/');
 })
 
 app.listen(3000, () => {
