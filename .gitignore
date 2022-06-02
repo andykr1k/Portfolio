@@ -1,4 +1,9 @@
 node_modules/
 
+actions/
+
+index.js
+
+
 package-lock.json
 package.json
