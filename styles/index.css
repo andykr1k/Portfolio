@@ -1717,6 +1717,8 @@ a {
     border: 3px solid black;
     border-radius: 5px;
     overflow: hidden;
+    text-align: center;
+    white-space:nowrap;
   }
   
   #scroll-text {
