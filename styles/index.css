@@ -1725,9 +1725,9 @@ a {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     
-    -moz-animation: my-animation 15s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite;
+    -moz-animation: my-animation 30s linear infinite;
+    -webkit-animation: my-animation 30s linear infinite;
+    animation: my-animation 30s linear infinite;
   }
   
   /* for Firefox */
